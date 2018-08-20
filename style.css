@@ -1,0 +1,11 @@
+#inputSearchId, 
+#searchSiteSelect, 
+#searchSiteSelect > option, 
+#buttonSearchId {
+  border: 2px solid black;
+}
+#searchSiteSelect, 
+#searchSiteSelect > option, 
+#buttonSearchId {
+  cursor: pointer;
+}

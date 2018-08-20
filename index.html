@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+<title>Search</title>
+<script src="script.js"></script>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ 
+</head>
+<body>
+        
+        <div class="container"> 
+        
+                <input id="inputSearchId" type="text"/></input>
+                <select id="searchSiteSelect" onchange="getSelectedValue(this)">
+                        <option value="" disabled selected="selected">Indicate the search engine</option> 
+                        <option value="https://www.google.com/search?q=">Google.com</option>
+                        <option value="https://www.bing.com/search?q=">Bing.com</option>
+                        <option value="https://www.ask.com/web?q=">Ask.com</option>
+                </select>
+                <button id="buttonSearchId" onclick="func();" href="#">Search</button>
+       
+        </div>
+        
+</body>
+</html>
+
